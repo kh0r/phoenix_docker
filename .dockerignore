@@ -1,0 +1,18 @@
+# .dockerignore
+.git
+Dockerfile
+
+# Mix artifacts
+_build
+deps
+*.ez
+
+# test and doc folders
+test
+doc
+
+# BEAM crash dump
+erl_crash.dump
+
+# nodejs module folder
+node_modules
